@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
-
-
 <head>
 
 <!-- Meta Tags -->
@@ -37,6 +35,11 @@
 <link href="css/responsive.css" rel="stylesheet" type="text/css">
 <!-- CSS | Style css. This is the file where you can place your own custom css code. Just uncomment it and use it. -->
 <!-- <link href="css/style.css" rel="stylesheet" type="text/css"> -->
+
+<!-- Revolution Slider 5.x CSS settings -->
+<link  href="js/revolution-slider/css/settings.css" rel="stylesheet" type="text/css"/>
+<link  href="js/revolution-slider/css/layers.css" rel="stylesheet" type="text/css"/>
+<link  href="js/revolution-slider/css/navigation.css" rel="stylesheet" type="text/css"/>
 
 <!-- CSS | Theme Color -->
 <link href="css/colors/theme-skin-color-set2.css" rel="stylesheet" type="text/css">
@@ -110,22 +113,10 @@
             <ul class="menuzord-menu">
               <li class="active"><a href="index.html">Home</a>
               </li>
-              <!-- <li><a href="#">Pages</a>
-                <ul class="dropdown">
-                  <li><a href="page-about1.html">About Style 1</a></li>                  
-                  <li><a href="page-events-list.html">Events list</a></li>
-                  <li><a href="page-gallery.html">Gallery</a></li>
-                  <li><a href="page-faqs.html">Faqs</a></li>
-                  <li><a href="page-contact.html">Contact</a></li>
-                  <li><a href="page-coming-soon.html">Coming Soon</a></li>
-                  <li><a href="page-404.html">Page 404</a></li>
-                  <li><a href="page-under-construction.html">Under Construction</a></li>
-                </ul>
-              </li> -->
               <li><a href="#">ABOUT</a>
                 <ul class="dropdown">
-                  <li><a href="page-about1.html">FOUNDER</a></li>
-                  <li><a href="page-events-list.html">CHAIRMAN'S MESSAGE</a>
+                  <li><a href="founder.html">FOUNDER</a></li>
+                  <li><a href="chairman.html">CHAIRMAN'S MESSAGE</a>
                   </li>
                   <li>
                     <a href="page-gallery.html">TRUST</a>
@@ -180,11 +171,10 @@
         <div class="section-content">
           <div class="row"> 
             <div class="col-md-6">
-              <h2 class="text-white font-36">Contact</h2>
+              <h2 class="text-white font-36">Ganga Devi Law College</h2>
               <ol class="breadcrumb text-left mt-10 white">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Pages</a></li>
-                <li class="active">About</li>
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a>Facilities</a></li>
               </ol>
             </div>
           </div>
@@ -192,84 +182,54 @@
       </div>
     </section>
 
-    <!-- Divider: Contact -->
-    <section class="divider">
-      <div class="container pt-50 pb-70">
-        <div class="row pt-10">
-          <div class="col-md-5">
-            <h4 class="mt-0 mb-30 line-bottom">Find Our Location</h4>
-            <!-- Google Map HTML Codes -->
-            <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d14412.579809141362!2d82.865472!3d25.433417!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjXCsDI2JzAwLjMiTiA4MsKwNTEnNTUuNyJF!5e0!3m2!1sen!2sus!4v1715005722498!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
-          <div class="col-md-7">
-            <h4 class="mt-0 mb-30 line-bottom">Interested in discussing?</h4>
-            <!-- Contact Form -->
-            <form id="contact_college" name="contact_college" class="" method="post">
-
-              <div class="row">
-                <div class="col-sm-12">
-                  <div class="form-group mb-30">
-                    <input id="form_name" name="form_name" class="form-control" type="text" placeholder="Enter Name" required="">
+    <!-- Section: service-->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 blog-pull-right">
+            <div class="single-service">
+              <img src="images/course/lg6.jpg" alt="">
+              <h3 class="text-theme-colored line-bottom text-theme-colored">Facilities</h3>
+              <ul class="list-inline mb-15">
+                <li style="display: flex; align-items: center;">
+                  <i class="pe-7s-user text-theme-colored2 font-48"></i>
+                  <div class="pull-right ml-5">
+                    <span class="font-36"></span>
                   </div>
-                </div>
-                <div class="col-sm-12">
-                  <div class="form-group mb-30">
-                    <input id="form_email" name="form_email" class="form-control required email" type="email" placeholder="Enter Email">
-                  </div>
-                </div>
-              </div>                
-              <div class="row">
-                <div class="col-sm-6">
-                  <div class="form-group mb-30">
-                    <input id="form_subject" name="form_subject" class="form-control required" type="text" placeholder="Enter Subject">
-                  </div>
-                </div>
-                <div class="col-sm-6">
-                  <div class="form-group mb-30">
-                    <input id="form_phone" name="form_phone" class="form-control" type="text" placeholder="Enter Phone">
-                  </div>
+                </li>
+              </ul>
+               <div id="myTabContent" class="tab-content">
+                <div class="tab-pane fade in active" id="tab_content">
+                  Motivation is a key to success, with this doctrine in mind ANG IDEAL GROUP OF INSTUTUTE offers a number of awards/ appreciation to motivate students. Needy students procured post matric Govt. Scholarship schemes Last Year.
                 </div>
               </div>
-
-              <div class="form-group mb-30">
-                <textarea id="form_message" name="form_message" class="form-control required" rows="7" placeholder="Enter Message"></textarea>
-              </div>
-              <div class="form-group">
-                <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value="" />
-                <button type="submit" class="btn btn-flat btn-default btn-theme-colored mr-5" data-loading-text="Please wait...">Send your message</button>
-                <button type="reset" class="btn btn-flat btn-theme-colored2 text-white">Reset</button>
-              </div>
-            </form>
-          </div>
-        </div>
-        <div class="row mt-60">
-          <div class="col-sm-12 col-md-4">
-            <div class="contact-info text-center bg-silver-light border-1px pt-60 pb-60">
-              <i class="fa fa-phone font-36 mb-10 text-theme-colored2"></i>
-              <h4>Call Us</h4>
-              <h6 class="text-gray"><a href="tel:+917800542000">Phone: +91 78005 42000</a></h6>
             </div>
           </div>
           <div class="col-sm-12 col-md-4">
-            <div class="contact-info text-center bg-silver-light border-1px pt-60 pb-60">
-              <i class="fa fa-map-marker font-36 mb-10 text-theme-colored2"></i>
-              <h4>Address</h4>
-              <h6 class="text-gray">Saraitakki, Airport Road, Babatpur, Uttar Pradesh 221006</h6>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-4">
-            <div class="contact-info text-center bg-silver-light border-1px pt-60 pb-60">
-              <i class="fa fa-envelope font-36 mb-10 text-theme-colored2"></i>
-              <h4>Email</h4>
-              <h6 class="text-gray">angidealgroup2007@gmail.com</h6>
+            <div class="sidebar sidebar-left mt-sm-30 ml-40">              
+              <div class="widget">
+                <h4 class="widget-title line-bottom">Facilities <span class="text-theme-colored2"></span></h4>
+                <div class="services-list">
+                  <ul class="list list-border">
+                    <li class="active" id="SCHOLARSHIP" style="cursor: pointer;"><a>SCHOLARSHIP / AWARDS*</a></li>
+                    <li id="CORE_FACULTY" style="cursor: pointer;"><a>THE CORE FACULTY</a></li>
+                    <li id="CURRICULAR" style="cursor: pointer;"><a>THE CORE FACULTY</a></li>
+                    <li id="BANKING" style="cursor: pointer;"><a>BANKING</a></li>
+                    <li id="WIFI" style="cursor: pointer;"><a>WI-FI CAMPUS</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div>
+                <img src="/images/facility.jpg" alt="facility-image"/>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+
   </div>
   <!-- end main-content -->
-  
   <!-- call button -->
   <a href="tel:+918009354629" class="bd-bounce visible-sm visible-xs" style="position: fixed; bottom: 11rem; right: 0.5rem; border-radius: 100px; z-index: 9999;">
     <svg height="50px" width="50px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
@@ -387,7 +347,8 @@
 <!-- end wrapper -->
 
 <!-- Footer Scripts -->
-<!-- JS | Custom script for all pages -->
+
+<!-- external javascripts -->
 <script src="js/jquery-2.2.4.min.js"></script>
 <script src="js/jquery-ui.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
@@ -396,11 +357,81 @@
 <!-- JS | Custom script for all pages -->
 <script src="js/custom.js"></script>
 <script src="js/extra.js"></script>
-<script src="js/formaction.js"></script>
-<!-- Google Map Javascript Codes -->
-<!-- <script src="http://maps.google.com/maps/api/js?key=AIzaSyAYWE4mHmR9GyPsHSOVZrSCOOljk8DU9B4"></script> -->
-<!-- <script src="js/google-map-init.js"></script> -->
 
+<script>
+  
+const SCHOLARSHIP = document.getElementById("SCHOLARSHIP");
+const CORE_FACULTY = document.getElementById("CORE_FACULTY");
+const CURRICULAR = document.getElementById("CURRICULAR");
+const BANKING = document.getElementById("BANKING");
+const WIFI = document.getElementById("WIFI");
+const tabContent = document.getElementById("tab_content");
+
+console.log('js file')
+SCHOLARSHIP.addEventListener('click', () => {
+  CORE_FACULTY.classList.remove('active');
+  WIFI.classList.remove('active');
+  BANKING.classList.remove('active');
+  CURRICULAR.classList.remove('active');
+  
+  SCHOLARSHIP.classList.add('active');
+  
+  const data = "<p>Motivation is a key to success, with this doctrine in mind <span class='font-weight-700'> ANG IDEAL GROUP OF INSTUTUTE </span> offers a number of awards/ appreciation to motivate students. Needy students procured post matric Govt. Scholarship schemes Last Year.</p>"
+  tabContent.innerHTML = data;
+});
+
+CORE_FACULTY.addEventListener('click', () => {
+  SCHOLARSHIP.classList.remove('active');
+  WIFI.classList.remove('active');
+  BANKING.classList.remove('active');
+  CURRICULAR.classList.remove('active');
+  
+  CORE_FACULTY.classList.add('active');
+  
+  const data = "<p>A.N.G. IDEAL GROUP provides excellent core faculty with B. Tech/M. Tech With 5 Year of teacher experience keeping in vies the latest trends specially to meet the challenges of job opportunities in the corporation sectors.</p> <p>A.N.G. IDEAL GROUP arranges visiting facilities in order to supplement and synergies the academic</p> <p>Special module for personality Development is added to help the students. A.N.G. IDEAL GROUP has continuous interaction with the industry by the way site visit, programmers conducted at the campus by working executive and specific interface on particular occasions.</p>"
+  tabContent.innerHTML = data;
+
+});
+
+CURRICULAR.addEventListener('click', () => {
+  SCHOLARSHIP.classList.remove('active');
+  CORE_FACULTY.classList.remove('active');
+  WIFI.classList.remove('active');
+  BANKING.classList.remove('active');
+
+  CURRICULAR.classList.add('active');
+  
+  const data = "<p>To groom the Personality of the students and uplift their confidence, we organize various activities like workshops, debates at mod show etc.</p>"
+  tabContent.innerHTML = data;
+
+});
+
+BANKING.addEventListener('click', () => {
+  SCHOLARSHIP.classList.remove('active');
+  CORE_FACULTY.classList.remove('active');
+  CURRICULAR.classList.remove('active');
+  WIFI.classList.remove('active');
+
+  BANKING.classList.add('active')
+
+  const data = "<p>We have tied up with National Banks to offers Convenient Banking Services to the students.</p>"
+  tabContent.innerHTML = data;
+
+});
+
+WIFI.addEventListener('click', () => {
+    BANKING.classList.remove('active');
+    SCHOLARSHIP.classList.remove('active');
+    CORE_FACULTY.classList.remove('active');
+    CURRICULAR.classList.remove('active');
+
+    WIFI.classList.add('active');
+    const data = "<p>Provide 24/7/365 High Speed Internet Facility to all the Students.</p>"
+    tabContent.innerHTML = data;
+
+});
+
+</script>
 </body>
 
 

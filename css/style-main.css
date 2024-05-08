@@ -8028,3 +8028,59 @@ body.has-fixed-footer .main-content {
     margin-bottom: 0 !important;
   }
 }
+
+.bd-bounce {
+  animation: bounce-ctm 1s infinite alternate;
+}
+
+.bd-bounce-d {
+  animation: bounce-ctm 1s infinite alternate;
+  animation-delay: 1s;
+}
+
+@keyframes bounce-ctm {
+  0% {
+      transform: scale(1);
+  }
+  100% {
+      transform: scale(1.1);
+  }
+}
+
+.whatsapp-icon {
+    position: fixed;
+    bottom: 6rem;
+    right: 0.5rem;
+    background-color: rgb(14, 138, 37);
+    border-radius: 100px;
+    z-index: 9999;
+    text-decoration: none;
+}
+
+.whatsapp-icon-container {
+    padding: 14px;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    gap: 10px;
+    position: relative;
+}
+
+.whatsapp-icon-wrapper {
+    display: block;
+    object-fit: contain;
+    width: 30px;
+    height: 30px;
+    fill: white;
+}
+
+.online-status {
+    display: none;
+    color: white;
+    transform: translateX(50%);
+}
+
+.whatsapp-icon:hover .online-status {
+    display: inline-block;
+    transition: transform 0.8s ease-in-out;
+    transform: translateX(0%);
+}
